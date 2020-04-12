@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GithubTest</string>
+    <string name="Button2">Meng\'s Activity</string>
+    <string name="TextView2">Meng Yang</string>
 </resources>

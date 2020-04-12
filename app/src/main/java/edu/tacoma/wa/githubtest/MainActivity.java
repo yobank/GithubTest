@@ -2,7 +2,9 @@ package edu.tacoma.wa.githubtest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,4 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    /** Called when the user taps the "Justin Sim" button */
+    public void displayJSActivity(View view) {
+        Intent intent = new Intent(this, JustinSimActivity.class);
+        startActivity(intent);
+    }
+
 }

@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">GithubTest</string>
+
+    <string name="JS_msg">Hello, my name is Justin Sim. </string>
+    <string name="JS_comment">Thinking of building an Artificer for my next character in DnD.</string>
+    <string name="JS_name">Justin Sim</string>
+
     <string name="Button2">Meng\'s Activity</string>
     <string name="TextView2">Meng Yang</string>
+
 </resources>

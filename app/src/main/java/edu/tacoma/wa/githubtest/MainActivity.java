@@ -14,8 +14,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openActivity2(View view) {
-        Intent intent = new Intent(this, Activity2.class);
+    /** Called when the user taps the "Justin Sim" button */
+    public void displayJSActivity(View view) {
+        Intent intent = new Intent(this, JustinSimActivity.class);
         startActivity(intent);
     }
+
+
 }
